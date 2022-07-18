@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2? family= Aladin & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+.centro{ display: flex; align-items: center; }
+
+#titulo{ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: rgb(24, 0, 240); margin-left: 40px ;}
+
+#logo {width: 150px;  height: 150px; border-radius: 50%; }
+
+body{ background-image: url( '../imagenes/fondo.2.jpeg'); font-size: 30px;}
+#lista-books{ min-width: 10px;}
+ul li { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: black;}
+
+h2, h3{ font-family: 'Bubblegum Sans', cursive; color:black; }
+
+div p b i {color: rgb(31, 25, 21);font-family: 'Aladin', cursive; text-align: center; }
+
+#libro-seleccionado{text-align: center;   }
+
+.fondo-interno{ background-color: rgba(255, 255, 255, 0.400); margin: 20PX; padding: 10px; border-radius: 15px; }  
