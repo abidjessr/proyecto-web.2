@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2? family= Aladin & display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
 
-.centro{ display: flex; align-items: center; }
+.centro{ display: flex; align-items: center;}
 
 #titulo{ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: rgb(24, 0, 240); margin-left: 40px ;}
 
@@ -9,7 +9,7 @@
 
 body{ background-image: url( '../imagenes/fondo.2.jpeg'); font-size: 30px;}
 
-ul li { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: black;}
+ul li { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: black; min-width: 330px;} 
 
 h2, h3{ font-family: 'Bubblegum Sans', cursive; color:black; }
 
