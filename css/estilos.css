@@ -8,6 +8,11 @@
     align-items: stretch;
 }
 
+.centro{  
+    display: flex; 
+    align-items: center; 
+}
+
 body{ 
     background-image: url( '../imagenes/fondo.2.jpeg'); 
     font-size: 25px;
