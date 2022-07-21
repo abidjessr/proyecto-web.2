@@ -25,7 +25,12 @@ body{
     text-shadow: 7px 5px black;
     font-size: 100px;
     margin: 0px;
-    letter-spacing: 10px;
+    transition:0.5s ;
+}
+
+#titulo:hover{
+    letter-spacing: 10px; 
+    transition:0.5s ;
 }
 
 #logo {
@@ -80,6 +85,8 @@ div p b i {
     color: rgb(0, 0, 0);
     text-align: center; 
 }
+
+.imagenes{ height: 300px;}
 
 #libro-seleccionado{
     text-align: center;   
