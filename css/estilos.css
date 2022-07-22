@@ -3,19 +3,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
-#contenido-principal{  
-    display: flex; 
-    align-items: stretch;
-}
-
-.centro{  
-    display: flex; 
-    align-items: center; 
-}
-
 body{ 
     background-image: url( '../imagenes/fondo.2.jpeg'); 
     font-size: 25px;
+}
+
+header{ 
+    display: flex; 
+    justify-content: space-between;
+    align-items:stretch; 
+}
+
+ header a { 
+    text-decoration: none;
+ }
+
+ #logo {
+    width: 125px;  
+    height: 125px; 
+    border-radius: 50%;
+    margin-right: 40px;
+    transition: 1s;
+}
+
+#logo:hover{
+    transform: rotate( 15deg);
+    transition:1s;
 }
 
 #titulo{ 
@@ -33,11 +46,8 @@ body{
     transition:0.5s ;
 }
 
-#logo {
-    width: 150px;  
-    height: 150px; 
-    border-radius: 50%;
-    margin-right: 40px;
+#libro-seleccionado{
+    text-align: center;   
 }
 
 #lista { 
@@ -72,8 +82,24 @@ body{
     transition: .7s ;
 }
 
+#contenido-principal{  
+    display: flex; 
+    align-items: stretch;
+}
 
-h2, h3{ 
+.fondo-interno{ 
+    background-color: rgba(255, 255, 255, 0.616); 
+    margin: 10PX; 
+    padding: 25px; 
+    border-radius: 20px; 
+} 
+
+.centrado {
+    display: flex;
+    align-items: center;
+  }
+
+h2{ 
     font-family: 'Bubblegum Sans', cursive; 
     color:black; 
     font-size: 40px;
@@ -92,9 +118,59 @@ div p b i {
     text-align: center;   
 }
 
-.fondo-interno{ 
-    background-color: rgba(255, 255, 255, 0.616); 
-    margin: 10PX; 
-    padding: 30px; 
-    border-radius: 20px; 
-} 
+.caja  {
+    text-align: center;
+    background-color: rgb(1, 59, 113);
+    border-style:solid;
+    border-color: rgb(1, 59, 113);
+    border-radius: 20px;
+    margin: 42px;
+    transition: 0.5s;
+}
+
+.caja:hover{
+    border-color: black;
+    background-color: black;
+    transition: 0.5s;
+ }
+
+.caja h2 { 
+    color:deepskyblue;
+    transition: 0.5s;
+}
+
+.caja:hover h2{ 
+    color: white;
+    transition: 0.5s;
+}
+
+.caja img{ 
+    height: 330px;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px ;
+}
+
+#ligs a{
+    border-radius: 7px;
+    background-color:darkcyan;
+    color: white;
+    padding: 25px;
+    border-bottom-style: solid;
+    border-color: navy;
+    font-family: 'Acme', sans-serif;
+    font-size: 30px;
+    margin: 25px;
+    transition: .7s;
+}
+
+#ligs a:hover{
+    background-color: grey;
+    border-color: darkcyan;
+    transition: .7s;
+}
+
+.sub-p{
+    text-decoration: none;
+    color: deepskyblue;
+    font-family: 'Acme', sans-serif;
+}
