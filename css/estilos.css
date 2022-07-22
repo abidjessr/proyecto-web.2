@@ -120,11 +120,12 @@ div p b i {
 
 .caja  {
     text-align: center;
-    background-color: rgb(1, 59, 113);
+    background-color: cornflowerblue;
     border-style:solid;
-    border-color: rgb(1, 59, 113);
+    border-color: rgb(114, 113, 113);
     border-radius: 20px;
-    margin: 42px;
+    padding: 10px;
+    margin: 30px;
     transition: 0.5s;
 }
 
@@ -173,4 +174,15 @@ div p b i {
     text-decoration: none;
     color: deepskyblue;
     font-family: 'Acme', sans-serif;
+    border-radius: 7px;
+    border-bottom-style: solid;
+    background-color: rgb(107, 103, 103);
+    padding: 7px;
+    border-color: deepskyblue;
+    transition: 0.7s;
+}
+.sub-p:hover{
+    background-color: white;
+    border-color: deepskyblue;
+    transition: 0.7s;
 }
