@@ -118,24 +118,31 @@ div p b i {
     text-align: center;   
 }
 
-.caja  {
-    text-align: center;
+.columna{
+    margin-right: 200px;
+    margin-left: 3px;
+    flex:50%
+}
+
+.caja  { 
+    text-align:center;
     background-color: cornflowerblue;
     border-style:solid;
     border-color: rgb(114, 113, 113);
     border-radius: 20px;
-    padding: 10px;
+    padding: 30px;
     margin: 30px;
     transition: 0.5s;
 }
 
 .caja:hover{
-    border-color: black;
+    border-color: cornflowerblue;
     background-color: black;
     transition: 0.5s;
  }
 
 .caja h2 { 
+    margin-top: 15px;
     color:deepskyblue;
     transition: 0.5s;
 }
@@ -146,13 +153,12 @@ div p b i {
 }
 
 .caja img{ 
-    height: 330px;
-    border-top-left-radius: 20px;
-    border-top-right-radius:20px ;
+    height: 400px;
+    border-radius: 20px;
 }
 
 #ligs a{
-    border-radius: 7px;
+    border-radius: 20px;
     background-color:darkcyan;
     color: white;
     padding: 25px;
