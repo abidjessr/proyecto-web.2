@@ -125,6 +125,20 @@
         height: 300px;
     }
 }
+@media screen and ( max-width:472px) {
+    .img{
+        margin: 0px;
+        padding: 5px;
+    }
+    
+}
+@media screen and ( max-width:455px) {
+    .img{
+        height: 300px;
+        width: 300px;
+    }
+    
+}
 @media screen and ( max-width:448px) {
     .caja img{
         height: 200px;
@@ -136,11 +150,22 @@
         margin: 5px;
     }
 }
+@media screen and ( max-width:405px) {
+    .img{
+        height: 270px;
+        width: 270px;
+    }
+    
+}
 @media screen and ( max-width:390px) {
     .caja h2{
         margin: 0px;
     }
     .sub-p{
         padding: 0px;
+    }
+    .img{
+        height: 250px;
+        width: 250px;
     }
 }

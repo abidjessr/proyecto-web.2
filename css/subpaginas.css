@@ -1,0 +1,12 @@
+.img{
+    height:350px;
+    width: 350px;
+    padding: 15px;
+    background-color: cornflowerblue;
+    border-color:rgb(114, 113, 113);
+    border-style: solid;    
+    border-radius: 20px;
+}
+#centro{   
+    text-align: center; 
+}
