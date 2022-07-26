@@ -85,6 +85,7 @@ header{
 #contenido-principal{  
     display: flex; 
     align-items: stretch;
+    justify-content: space-evenly;
 }
 
 .fondo-interno{ 
@@ -118,20 +119,14 @@ div p  {
     text-align: center;   
 }
 
-.columna{
-    margin-right: 200px;
-    margin-left: 3px;
-    flex:50%
-}
-
 .caja  { 
     text-align:center;
     background-color: cornflowerblue;
     border-style:solid;
     border-color: rgb(114, 113, 113);
     border-radius: 20px;
-    padding: 30px;
-    margin: 30px;
+    padding: 20px;
+    margin: 20px;
     transition: 0.5s;
 }
 
@@ -153,7 +148,7 @@ div p  {
 }
 
 .caja img{ 
-    height: 400px;
+    height: 350px;
     border-radius: 20px;
 }
 
