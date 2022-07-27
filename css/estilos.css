@@ -85,7 +85,7 @@ header{
 #contenido-principal{  
     display: flex; 
     align-items: stretch;
-    justify-content: space-evenly;
+
 }
 
 .fondo-interno{ 
@@ -100,14 +100,14 @@ header{
     align-items: center;
   }
 
-h2{ 
+h2, h3, h4{ 
     font-family: 'Bubblegum Sans', cursive; 
     color:black; 
     font-size: 40px;
     margin: 5px;
 }
 
-div p  {
+div p b i {
     font-family: 'Indie Flower', cursive;
     color: rgb(0, 0, 0);
     text-align: center; 
@@ -118,7 +118,10 @@ div p  {
 #libro-seleccionado{
     text-align: center;   
 }
-
+#caja-autora{
+    display: flex;
+    justify-content: space-evenly;
+}
 .caja  { 
     text-align:center;
     background-color: cornflowerblue;
