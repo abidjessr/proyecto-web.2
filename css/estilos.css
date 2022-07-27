@@ -85,6 +85,7 @@ header{
 #contenido-principal{  
     display: flex; 
     align-items: stretch;
+    justify-content: space-evenly;
 
 }
 
@@ -118,10 +119,7 @@ div p b i {
 #libro-seleccionado{
     text-align: center;   
 }
-#caja-autora{
-    display: flex;
-    justify-content: space-evenly;
-}
+
 .caja  { 
     text-align:center;
     background-color: cornflowerblue;
